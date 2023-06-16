@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ArcZam</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/index.js"></script>
+</head>
+<body class="dark:text-white dark:bg-[#1C2431]">
+<!-- header section -->
+<section class="p-10">
+    <div class="flex flex-col items-center md:flex-row md:justify-between">
+        <div id="logo-d" class="bg-no-repeat logo-dark h-20 w-40"></div>
+
+        <div class="flex items-center space-x-5">
+            
+            <a href="#feature" class="hover:text-[#AFEEFF]">Feautures</a>
+            <a href="#testimonial" class="hover:text-[#AFEEFF]">Testimonials</a>
+
+            <button id="theme-toggle" class="hover:bg-[#F3F4F6] dark:hover:bg-[#374151] p-2 rounded-lg border-2 border-gray-300">
+                <!-- Dark SVG Icon -->
+                        <svg
+                        id="theme-toggle-dark-icon"
+                        class="w-5 h-5 hidden"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                        d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+                        ></path>
+                    </svg>
+                    <!-- Light SVG Icon -->
+                    <svg
+                        id="theme-toggle-light-icon"
+                        class="w-5 h-5 hidden"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                        d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        ></path>
+                    </svg>
+            </button>
+        </div>
+    </div>
+</section>
+<!-- All your files  section -->
+<section class="p-10">
+    <div class="flex flex-col items-center">
+        <img src="images/illustration-intro.png" alt="">
+
+        <p class="my-12 text-center text-2xl font-bold max-w-lg  md:text-4xl md:max-w-xl">
+            All your files in one secure location, assessible anywhere.
+        </p>
+
+        <p class="text-sm max-w-sm text-center md:max-w-lg">
+            ArcZam stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.
+        </p>
+
+        <button class="my-8 rounded-full py-3 px-20 bg-[#65E2D9] hover:scale-95 duration-100">
+            Get Start
+        </button>
+        
+    </div>
+</section>
+
+<section class="p-10 dark:bg-[#181F2A] bg-[#F9FAFB]">
+    <div id="feature" class="grid md:grid-cols-2 gap-20 pb-16 md:mx-10">
+        
+        <!-- item1 -->
+        <div class="flex flex-col items-center">
+            <img src="images/icon-access-anywhere.svg" alt="">
+            <p class="font-bold text-center text-lg mt-10">
+                Access your file from anywhere
+            </p>
+            <p class="text-center max-w-md mt-3">
+                The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.
+            </p>
+        </div>
+
+        <!-- item2 -->
+        <div class="flex flex-col items-center">
+            <img src="images/icon-security.svg" alt="">
+            <p class="font-bold text-center text-lg mt-10">
+                Security you can trust
+            </p>
+            <p class="text-center max-w-md mt-3">
+                2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.
+            </p>
+        </div>
+
+        <!-- item3 -->
+        <div class="flex flex-col items-center">
+            <img src="images/icon-collaboration.svg" alt="">
+            <p class="font-bold text-center text-lg mt-10">
+                Access your file from anywhere
+            </p>
+            <p class="text-center max-w-md mt-3">
+                The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.
+            </p>
+        </div>
+
+        <!-- item4 -->
+        <div class="flex flex-col items-center">
+            <img src="images/icon-any-file.svg" alt="">
+            <p class="font-bold text-center text-lg mt-10">
+                Security you can trust
+            </p>
+            <p class="text-center max-w-md mt-3">
+                2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="p-10">
+    <div class="flex flex-col md:flex-row md:space-x-10 pb-16">
+        <img src="images/illustration-stay-productive.png" alt="" class="md:w-1/2">
+        <div class="flex flex-col space-y-6 pt-10">
+            <h3 class="font-bold text-xl md:text-4xl">
+                Stay productive, wherever you are
+            </h3>
+            <p>
+                Never let location be an issue when accessing your files. ArcZam has you covered for all of your file storage needs.
+            </p>
+            <p>
+                Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+            </p>
+            <a href="#" class="flex hover:underline text-[#65E2D9] space-x-2">
+                <span>See how ArcZam Works</span>
+                <img src="images/icon-arrow.svg" alt="">
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="relative p-10 bg-[#F3F4F6] dark:bg-inherit">
+    <div id="testimonial" class="flex flex-col md:flex-row md:justify-center md:space-x-4 pb-56">
+
+        <img src="images/bg-quotes.png" alt="" class="w-8 -top-4 left-10 md:absolute md:w-16">
+        
+        <!-- item 1 -->
+        <div class="flex flex-col bg-[#E5E7EB] space-y-5 p-7 mb-7 dark:bg-[#202A3C]">
+            <p class="max-w-xs">
+                ArcZam has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+            </p>
+            <div class="flex space-x-7">
+                <img src="images/profile-1.jpg" alt="" class="rounded-full  w-10 h-10">
+                <div class="flex flex-col">
+                    <h3 class="font-bold">Satish Patel</h3>
+                    <p class="text-xs">Founder & CEO. Huddle</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- item 2 -->
+        <div class="flex flex-col bg-[#E5E7EB] space-y-5 p-7 mb-7 dark:bg-[#202A3C]">
+            <p class="max-w-xs">
+                ArcZam has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+            </p>
+            <div class="flex space-x-7">
+                <img src="images/profile-2.jpg" alt="" class="rounded-full  w-10 h-10">
+                <div class="flex flex-col">
+                    <h3 class="font-bold">Bruce McKenzie</h3>
+                    <p class="text-xs">Founder & CEO. Huddle2</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- item 3 -->
+        <div class="flex flex-col bg-[#E5E7EB] space-y-5 p-7 mb-7 dark:bg-[#202A3C]">
+            <p class="max-w-xs">
+                ArcZam has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+            </p>
+            <div class="flex space-x-7">
+                <img src="images/profile-3.jpg" alt="" class="rounded-full  w-10 h-10">
+                <div class="flex flex-col">
+                    <h3 class="font-bold">Eva Boyd</h3>
+                    <p class="text-xs">Founder & CEO. Huddle3</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<section class="p-10 relative h-[264px] w-full dark:bg-[#0B1523]">
+    <div class="relative flex-flex-col text-center p-7 space-y-5 bg-[#E5E7EB] dark:bg-[#181F2A] rounded-md md:max-w-[896px] mx-auto -top-40 " >
+        <h2 class="font-bold text-xl">Get early access today</h2>
+        <p class="text-sm">
+            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+        </p>
+        <div class="flex flex-col md:flex-row md:space-x-4 items-center">
+            <input type="text" class="text-gray-700 w-full p-3 rounded-full outline-none">
+            <button class="my-8 rounded-full bg-[#65E2D9] px-5 py-2 hover:scale-95 duration-100 max-w-xs md:w-1/3">
+                Get Started For Free
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+
+<section class="text-white bg-[#0B1523] flex flex-col space-y-4 p-10 md:flex-row md:space-y-0 md:justify-between">
+    
+    <!-- contact & email -->
+    <div class="flex flex-col space-y-4">
+        <div class="flex space-x-5">
+            <img src="images/icon-phone.svg" alt="">
+            <span>+1-543-123-4567</span>
+        </div>
+        <div class="flex space-x-5">
+            <img src="images/icon-email.svg" alt="">
+            <span>example@arczam.com</span>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div class="flex flex-col space-y-4">
+        <span class="font-bold text-lg">About</span>
+        <span>Jobs</span>
+        <span>Press</span>
+        <span>Blog</span>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="flex flex-col space-y-4">
+        <span class="font-bold text-lg">Contact Us</span>
+        <span>Terms</span>
+        <span>Privacy</span>
+    </div>
+
+    <!-- social -->
+    <div class="flex justify-center items-start space-x-5">
+        <img src="images/facebook.svg" alt="" class="p-2 hover:bg-[#65E2D9] rounded-full hover:cursor-pointer">
+        <img src="images/twitter.svg" alt="" class="p-2 hover:bg-[#65E2D9] rounded-full hover:cursor-pointer">
+        <img src="images/instagram.svg" alt="" class="p-2 hover:bg-[#65E2D9] rounded-full hover:cursor-pointer">
+    </div>
+</section>
+
+
+
+<script src="js/remain.js"></script>
+</body>
+</html>
